@@ -137,7 +137,7 @@ void tache1(double *s, int t[], int cible)
         i++;
     }
 
-    if (i <= 5)
+    if (i == 5)
         *s = 50;
 }
 void tache4(double *s,int a[],int l,int n,int h[] )
