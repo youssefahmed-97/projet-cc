@@ -224,7 +224,7 @@ int main()
 
             cible = rand() % 100;
             tache1(&s, t, cible);
-            printf("votre score est (%f)\n", s);
+            printf("votre score est (%f)", s);
             FILE *f1 = fopen("score1.txt", "w");
             fprintf(f1, "%f", s);
             fclose(f1);
@@ -232,7 +232,7 @@ int main()
 
         case 2:
             tache2(&s, l, 6);
-            printf("votre score est (%f)\n", s);
+            printf("votre score est (%f)", s);
             FILE *f2 = fopen("score2.txt", "w");
             fprintf(f2, "%f", s);
             fclose(f2);
@@ -240,7 +240,7 @@ int main()
 
         case 3:
             tache3(&s, tab, 10);
-            printf("votre score est (%f)\n", s);
+            printf("votre score est (%f)", s);
             FILE *f3 = fopen("score3.txt", "w");
             fprintf(f3, "%f", s);
             fclose(f3);
@@ -251,7 +251,7 @@ int main()
             int a[6] = {7,2,3,6,4,5};
             int h[6] = {2,3,4,5,6,7};
             tache4(&s, a, 10, 6, h);
-            printf("votre score est (%f)\n", s);
+            printf("votre score est (%f)", s);
             FILE *f4 = fopen("score4.txt","w");
             fprintf(f4,"%f", s);
             fclose(f4);
