@@ -3,8 +3,6 @@
 #include <time.h>
 #include <stdbool.h>
 
-
-
 bool test_seq(int *i, int *j, int t[], int h[], int n)
 {
     *i = 0;
