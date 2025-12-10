@@ -9,7 +9,6 @@ bool test_seq(int *i, int *j, int t[], int h[], int n)
 {
     *i = 0;
     *j = 0;
-
     for (int e = 0; e < n; e++)
     {
         for (int k = 0; k < n; k++)
@@ -33,11 +32,9 @@ void tache2(double *s, int t[], int n)
     int j = 0;
     int m = 0;
     int h[20];
-
     printf("saisir la sequence : ");
     for (int x = 0; x < n; x++)
         scanf("%d", &h[x]);
-
     while (test_seq(&i, &j, t, h, n) == 0)
     {
         printf("nombre mal place %d\n", j);
@@ -65,9 +62,7 @@ void tache3(double *s, char t[], int n)
 {
     int i = 0;
     char c;
-
     printf("saisir une direction valide (N,E,W,S) : ");
-
     while ((i < n) && (scanf(" %c", &c)))
     {
         if (c != t[i])
@@ -103,7 +98,6 @@ void tache1(double *s, int t[], int cible)
     int j;
     char e;
     char ch[100] = "";
-
     while (i < 5)
     {
         printf("donner une operation mathematique : ");
@@ -148,9 +142,6 @@ void tache1(double *s, int t[], int cible)
     if (i <= 5)
         *s = 50;
 }
-
-
-
 void tache4(double *s,int a[],int l,int n,int h[] )
 {
     char operation[50];
@@ -159,7 +150,6 @@ void tache4(double *s,int a[],int l,int n,int h[] )
     int i , j;
     int t;
     int d = 0;
-
     while (e + c < l)
     {
         printf("donner operation que voulez vous effectuez echange ou comparaion ");
