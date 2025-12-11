@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdbool.h>
+#include <string.h>
 
 bool test_seq(int *i, int *j, int t[], int h[], int n)
 {
